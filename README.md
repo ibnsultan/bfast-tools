@@ -1,16 +1,17 @@
 # bfast-tools
-CLI tools for manage your project ( s ) in [BFast Cloud](https://bfast.fahamutech.com).
+CLI tools to manage your project ( s ) in [BFast Cloud](https://bfast.fahamutech.com).
 
-## Pre request
+## Pre request / Requirements
 
-* Download and install [NodeJs](https://nodejs.org/en/download/) in your local PC. If you have it your good to go.
+* [NodeJs](https://nodejs.org/en/download/) >= V.12
+* NPM (mostly comes with nodejs) >= 6.1
 
 ## Get stated
-Install package from npm by run for linux: `sudo npm install -g bfast-tools`. For windows run: `npm install -g bfast-tools`
+Install bfast package using npm, run this command: `npm install -g bfast-tools`
 
 ## BFast::Cloud Projects
 
-You use this sub command to manage your remote bfast projects. `bfast cloud` for more commands.
+Use this sub command to manage your remote bfast projects. `bfast cloud` for more commands.
 
 ### Create a new project
 
@@ -60,7 +61,7 @@ josh@xps:~/Desktop$ bfast database dashboard-off
 
 ### Open Database Playground
 
-You must add manually a specif collection/table/domain to a realtime engine to subscribe to its events.
+You MUST manually add a specif collection/table/domain to a realtime engine to subscribe to its events.
 ```shell script
 josh@xps:~/Desktop$ bfast database playground
 ```
